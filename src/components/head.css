@@ -1,0 +1,66 @@
+
+.boxes{
+    display: flex;
+    margin: 5px 0px 2px 15px;    
+}
+.boxes .box1{
+    position:relative;
+    color: azure;
+    background-color: rgb(55, 52, 97);
+    text-align: center;
+    width: 100px;
+    height:20px;
+    font-weight: bold;
+    border: 1px solid green;
+    background-color: light yellow;
+}
+.boxes .box2{
+    position: inherit;
+    color: azure;
+    text-align: center;
+    width: 100px;
+    height:40px;
+    border: 1px solid green;
+}
+.boxes .box3{
+    position: relative;
+    color: azure;
+    background-color: rgb(112, 89, 15);
+    text-align: center;
+    margin-top: 10px;
+    width: 100px;
+    font-weight: bold;
+    height:20px;
+    border: 1px solid green;
+}
+.boxes .box4{
+    position: relative;
+    color: azure;
+    text-align: center;
+    width: 100px;
+    height:40px;
+    border: 1px solid green;
+}
+.image{
+    margin:0px  0px 0px 100px;
+    width: fit-content;
+    height: 100px;
+    border:1px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image img{
+    width:100px ;
+    height:100px;
+}
+.date-time{
+    display: flex;
+}
+.date-time .date{
+    color: white;
+    margin-left: 500px;
+}
+.date-time .time{
+    color: white;
+    margin-left: 10px;
+}

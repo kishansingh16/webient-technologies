@@ -1,0 +1,19 @@
+.datepicker{
+    width: fit-content;
+    display: flex;
+    margin:30px 0px 0px 20px;
+    color: solid white;
+}
+.datepicker .date h3{
+    color: white;
+    font-size: large;
+}
+
+.datepicker  button{
+    width: 400px;
+}
+.data{
+    color: aliceblue;
+    padding: 20px 0px 0px 0px;
+    margin:0px 0px 0px 20px
+}

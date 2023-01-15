@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+    display:flex;
+    justify-content: space-around;
+    border: 2px ;
+    background:linear-gradient(red,black);
+    padding:2px;
+}
+.luckydraw{
+    position:static;
+    border: 1px ;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3px 3px 3px 3px;
+}
+.ambusement{
+    border: 1px ;
+    text-align: center;
+    margin-left: 4px;  
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 3px 3px 3px 3px;  
+}
+
+.navbar .username {  
+    border: 1px; 
+    color: white; 
+    text-align: center; 
+    margin-left: 3px; 
+    padding-bottom: 8px;  
+  
+}
+
+.navbar .check {
+    margin-left: 4px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight:500;
+    color: wheat;
+    padding:3px 3px 3px 3px
+}
+.navbar .ticket-number{
+    margin-left: 5px;
+    border: 1px; 
+    color: white;
+    text-align: center; 
+    margin-left: 3px; 
+    padding-bottom: 8px; 
+}
+.navbar form input{
+    border: 1px ;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 4px;
+          
+}
+
+
+.navbar .claim{
+    padding-top: 6px;
+    display: flex;
+    padding-top: 3px;
+}
+.navbar .claim-btn{
+    height:fit-content;
+    border-radius: 5px;
+}
+.navbar .claim-btn:hover{
+    background-color: aqua;
+}
+.navbar .balance {
+    margin-left: 4px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight:500;
+    border-radius: 5px;
+    color: wheat;
+}
+
+.navbar  .value{
+    font-size: 1rem;
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: 100px;
+}
+.navbar .balance-show {
+    padding-top: 6px;
+    display: flex;
+}

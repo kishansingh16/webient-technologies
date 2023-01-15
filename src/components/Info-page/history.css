@@ -1,0 +1,101 @@
+.history-tables{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:20px ;
+    border: 1px solid white;
+    text-align: center;
+    width: 1360px;
+    font-size: 25px;
+    padding: 10px;
+    margin:0px 0px 0px 0px;
+}
+
+.history-tables .ticket{
+    color: aliceblue;
+    border: 1px solid aqua;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+    margin-left: 5px;
+    font-weight: 400; 
+    font-size: 15px;
+}
+.history-tables .barcode{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;
+    margin-left:5px; 
+    font-weight: 400; 
+    font-size: 15px; 
+}
+.history-tables .play{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;
+    margin-left:5px; 
+    font-weight: 400; 
+    font-size: 15px;  
+}
+.history-tables .manual{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;
+    margin-left:5px; 
+    font-weight: 400; 
+    font-size: 15px;   
+}
+.history-tables .auto{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;
+    margin-left:5px;
+    font-weight: 400; 
+    font-size: 15px;    
+}
+.history-tables .space{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;  
+    margin-left:5px;
+    font-weight: 400; 
+    font-size: 15px;  
+}
+.history-tables .result{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px; 
+    font-weight: 400; 
+    font-size: 15px;  
+}
+.history-tables .draw-time{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;
+    margin-left:5px;
+    font-weight: 400; 
+    font-size: 15px; 
+}
+.history-tables .print-time{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px; 
+    margin-left:5px; 
+    font-weight: 400; 
+    font-size: 15px;  
+}
+.history-tables .re-print{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px; 
+    margin-left:5px;
+    font-weight: 400; 
+    font-size: 15px;   
+}
+.history-tables .cancel{
+    color: aliceblue;
+    border: 1px solid aqua;
+    padding:10px 10px 10px 10px;
+    margin-left:5px;
+    font-weight: 400; 
+    font-size: 15px;    
+}

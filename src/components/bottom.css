@@ -1,0 +1,136 @@
+.bottom-box{
+    display: flex;
+    height:120px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom-box .coins button{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    background-image: linear-gradient(violet,blue,green);
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #630563;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bottom-box .info {
+    /* margin: 20px 0px 0px 900px; */
+    height: fit-content;
+    color: rgb(112, 6, 98);
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2px 2px 2px 2px;
+    background-image: linear-gradient(yellow, blue);
+    font-weight: bold;
+}
+
+.bottom-box .info:hover{
+    background-color: aquamarine;
+}
+
+.bottom-box .double-up{
+    height: fit-content;
+    margin-left: 10px;
+    color: rgb(112, 6, 98);
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2px 2px 2px 2px;
+    background-image: linear-gradient(yellow, blue);
+}
+
+.bottom-box .repeat{
+    height: fit-content;
+    margin-left :10px;
+    color: rgb(112, 6, 98);
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2px 2px 2px 2px;
+    background-image: linear-gradient(yellow, blue);
+}
+
+.bottom-box .clear{
+    height: fit-content;
+    margin-left: 10px;
+    color: rgb(112, 6, 98);
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2px 2px 2px 2px;
+    background-image: linear-gradient(yellow, blue);
+}
+
+.bottom-box .buttons .buttons{
+    margin-top: 0%;
+}
+.bottom-box .buttons .btn-two{
+    margin-right: 8px;
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+}
+.bottom-box .buttons .btn-five{
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+}
+.bottom-box .buttons .btn-ten{
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+}
+.bottom-box .buttons .btn-twenty{
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+}
+.bottom-box .buttons .btn-fifty{
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+}
+.bottom-box .buttons .btn-hundred{
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+}
+.bottom-box .buttons .btn-fivehundred{
+    border: 1px white;
+    color: black;
+    margin-left: 5px;
+}
+.bottom-box .welcome{
+    height:52px;
+    width: 600px;
+    border-radius: 30px;
+    border: 1px solid green;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    color: #ffffff;
+    background-image: linear-gradient(rgb(81, 116, 81),rgb(153, 177, 69));
+    
+}
+.bottom-box .welcome .box-welcome-text{
+    height: 50px;
+    width: 450px;
+    border: 1px solid #704444;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px 0px 0px 70px;
+    background-color:white ;
+    color: rgb(143, 19, 116);
+    background-image: linear-gradient(rgb(135, 150, 135),rgb(33, 139, 146));
+}
+
+.bottom-box .welcome .welcome-text{
+    margin-top:12px ;
+    font-size:x-large;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+
