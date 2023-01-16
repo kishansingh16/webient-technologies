@@ -7,7 +7,7 @@ import React from "react";
 import Netpay from "./Info-page/Netpay";
 import Summary from "../components/Info-page/Summary";
 import Exit from "../components/Info-page/Exit";
-import LogIn from "../signup-login-page/LogIn";
+import LogIn from "../components/signup-login-page/LogIn";
 function Home(){
     return(
         <>
@@ -20,7 +20,7 @@ function Home(){
             <Route path="/Netpay" element={<Netpay/>}></Route>
             <Route path="/Summary" element={<Summary/>}></Route>
             <Route path="/Exit" element={<Exit/>}></Route>
-            <Route path="/LogIn" element={LogIn}></Route>
+            <Route path="/LogIn" element={<LogIn/>}></Route>
         </Routes>
         </>
     )
