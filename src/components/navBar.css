@@ -98,3 +98,15 @@
     padding-top: 6px;
     display: flex;
 }
+
+.navbar .signout{
+    width: fit-content;
+    height: 20px;
+    margin:3px 0px 0px 0px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.navbar .signout:hover{
+    background-image: linear-gradient(white, black, pink);
+    color: white;
+}

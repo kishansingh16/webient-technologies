@@ -15,16 +15,22 @@ function Info(){
     const netpay=()=>{
         navigate("/Netpay");
     };
+    const summary=()=>{
+        navigate("/Summary");
+    };
+    const exit=()=>{
+        navigate("/Exit");
+    };
     return(
         <>
            <div className="info-nav">
                 <div className="nav-buttons">
                     <button onClick={result}>RESULT</button>
                     <button onClick={history}>HISTORY</button>
-                    <button >SUMMARY</button>
+                    <button onClick={summary}>SUMMARY</button>
                     <button >LEDGER</button>
                     <button onClick={netpay}>NET TO PAY</button>
-                    <button >EXIT</button>
+                    <button onClick={exit}>EXIT</button>
                 </div>
                 
            </div>

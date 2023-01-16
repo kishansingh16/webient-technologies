@@ -1,0 +1,6 @@
+.datepicker{
+    width: fit-content;
+    display: flex;
+    margin:30px 0px 0px 20px;
+    color: solid white;
+}
