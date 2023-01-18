@@ -1,12 +1,11 @@
 import React from "react";
 import "../signup-login-page/login.css";
 
-
 function LogIn(){
 
     return(
         <>
-            <div className="container">
+            <div className="login-container">
                 <div className="login-form">
                     <form >
                         <div>
@@ -21,7 +20,6 @@ function LogIn(){
                         <button className="btn-submit" type="login">Login</button>
                     </form>
                     <div className="reset">Forget Password! <a href="window.location"> Reset </a></div>
-                    <div className="no-account">Not an account ? <a href="window.location"> Register </a></div>
                 </div>
             </div>
         </>

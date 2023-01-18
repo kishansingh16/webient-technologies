@@ -7,9 +7,11 @@ let crown=require('../Images/crown.jpeg')
 function Head(){
     let currTime=new Date().toLocaleTimeString();
     let currDate=new Date().toLocaleDateString();
+    let Added=new Date().toLocaleTimeString();
 
     const [ctime,setCtime]=useState(currTime);
     const [cdate,setCdate]=useState(currDate);
+    const [addtime,setaddtime]=useState(Added);
 
 
     const UpdateTime=()=>{
@@ -20,10 +22,16 @@ function Head(){
     const UpdateDate=()=>{
         currDate=new Date().toLocaleDateString();      
         setCdate(cdate);
-    }
+    };
+
+    const timeAdded=()=>{
+        Added=new Date().toLocaleTimeString();
+        setaddtime(addtime );
+    };
 
     setInterval(UpdateTime,1000)
     setInterval(UpdateDate,1000)
+    setInterval(timeAdded,1000)
     return(
         <>
         
@@ -40,7 +48,8 @@ function Head(){
                 </div>
                 <div className="date-time">
                     <p className="date">{cdate}</p>
-                    <p className="time">{ctime}</p>
+                    <p className="time-added">{addtime}</p>
+                    <p className="time">{ctime}</p>               
                 </div>
             </div>
                         

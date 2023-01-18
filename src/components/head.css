@@ -1,7 +1,9 @@
-
-.boxes{
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');.boxes{
     display: flex;
-    margin: 5px 0px 2px 15px;    
+    margin: 5px 0px 2px 15px;
+    font-family: 'Cormorant Garamond', serif;    
 }
 .boxes .box1{
     position:relative;
@@ -55,12 +57,18 @@
 }
 .date-time{
     display: flex;
+    font-family: 'Teko', sans-serif;
 }
 .date-time .date{
     color: white;
     margin-left: 500px;
+
 }
-.date-time .time{
+.date-time .time-added{
     color: white;
     margin-left: 10px;
+}
+.boxes .date-time .time{
+    color: white;
+    margin-left: 80px;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 .bottom-box{
     display: flex;
     height:120px;
@@ -7,15 +9,16 @@
 }
 
 .bottom-box .coins button{
+    font-family: 'Black Ops One', cursive;
     border-radius: 50%;
     height: 60px;
     width: 60px;
     margin: 5px;
-    background-image: linear-gradient(violet,blue,green);
+    background-image: linear-gradient(rgb(163, 140, 163),rgb(122, 122, 182),rgb(121, 184, 121));
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     color: #630563;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 .bottom-box .info {
     /* margin: 20px 0px 0px 900px; */
