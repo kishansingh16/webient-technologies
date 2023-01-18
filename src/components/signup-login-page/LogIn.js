@@ -1,24 +1,28 @@
 import React from "react";
+import "../signup-login-page/login.css";
+
 
 function LogIn(){
+
     return(
         <>
-        <div className="container">
-            <form >
-                    <div>
-                        <label htmlFor="email">Username</label>
-                        <input type="email" name="email" id="email" placeholder="username" />
-                    </div>
+            <div className="container">
+                <div className="login-form">
+                    <form >
+                        <div>
+                            <label htmlFor="email">Username</label>
+                            <input type="email" name="email" id="email" placeholder="username" />
+                        </div>
 
-                    <div>
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" id="password" placeholder="password"/>                        
-                    </div>
-                    
-                    <input className="btn-submit" type="submit" value="Submit" />
-
-                     <button  className="reset">Reset</button>
-            </form>
+                        <div>
+                            <label htmlFor="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="password"/>                        
+                        </div>
+                        <button className="btn-submit" type="login">Login</button>
+                    </form>
+                    <div className="reset">Forget Password! <a href="window.location"> Reset </a></div>
+                    <div className="no-account">Not an account ? <a href="window.location"> Register </a></div>
+                </div>
             </div>
         </>
     )
