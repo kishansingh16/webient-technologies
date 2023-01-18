@@ -24,14 +24,14 @@ function Head(){
         setCdate(cdate);
     };
 
-    const timeAdded=()=>{
+    const TimeAdded=()=>{
         Added=new Date().toLocaleTimeString();
         setaddtime(addtime );
     };
 
     setInterval(UpdateTime,1000)
     setInterval(UpdateDate,1000)
-    setInterval(timeAdded,1000)
+    setInterval(TimeAdded,1000)
     return(
         <>
         
@@ -48,7 +48,7 @@ function Head(){
                 </div>
                 <div className="date-time">
                     <p className="date">{cdate}</p>
-                    <p className="time-added">{addtime}</p>
+                    <p className="time-added">{ctime}</p>
                     <p className="time">{ctime}</p>               
                 </div>
             </div>
