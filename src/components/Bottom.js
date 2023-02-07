@@ -8,6 +8,7 @@ function Bottom(){
     //Redirect to the Info page
     navigate("/Info");
     };
+    
     return(
         <>
             <div className="bottom-box">
@@ -30,7 +31,7 @@ function Bottom(){
                     <button class="double-up">DOUBLE UP</button>
                     <button class="repeat">REPEAT</button>
                     <button class="clear">CLEAR</button>
-                   
+                    <button className="bet">BET</button>
                 </div>
             </div>
         </>

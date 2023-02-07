@@ -5,12 +5,12 @@ import Head from "./Head"
 import Bottom from "./Bottom";
 import "../components/box.css";
 
+
 function Box(){
     return(
         <>
         <div className="box">
-            <div className="nav"><NavBar/></div>
-           
+           <NavBar/>         
            <Head/>
            <Body/>
            <Bottom/>

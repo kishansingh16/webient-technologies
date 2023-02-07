@@ -2,17 +2,22 @@
 .box {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-image: url(../Images/backGround.gif);
     border: 2px solid green; 
     padding:0px;
+    background-size: cover;
     /* overflow-wrap:break-word; */
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
-  @media only screen and (max-width: 768px){
-    .box{
-        height: 100vh;
-        width:100vw;
+  /* @media screen and (max-width: 768px) {
+    .box {
+      background-color: light green;
+      display: block;
+      height: 100vh;
+      width: 100vw;
+      display: block;
     }
-  }
+    
+  } */

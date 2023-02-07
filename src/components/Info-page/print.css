@@ -1,0 +1,16 @@
+.bottom-btn .print{
+    margin: 300px 0px 0px 10px;
+    font-size: xx-large;
+    background-color: red;
+    color: white;
+    padding:1px 15px 0px 15px
+}
+.bottom-btn .show-all{
+    position: fixed;
+    margin: 300px 0px 0px 10px;
+    font-size: xx-large;
+    background-color: red;
+    color: white;
+    padding:1px 15px 0px 15px
+        
+}

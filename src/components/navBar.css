@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -10,60 +12,64 @@
     display:flex;
     justify-content: space-around;
     border: 2px ;
-    background:linear-gradient(red,black);
-    padding:2px;
-    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(185,14,17);
+    padding:1px;
+    /* font-family: 'Montserrat', sans-serif; */
+    
 }
-.luckydraw{
+.navbar .luckydraw{
     position:static;
-    border: 1px ;
-    color: white;
+    color: rgb(255,222,1);
     text-align: center;
-    font-size: 1rem;
+    font-family: 'Solitreo', cursive;
     font-weight: bold;
-    padding: 3px 3px 3px 3px;
+    padding: 5px 3px 3px 3px;
+    margin: 2px 0px 0px 0px;
+    background-color: black;
 }
-.ambusement{
+.navbar .ambusement{
     border: 1px ;
     text-align: center;
-    margin-left: 4px;  
-    color: white;
+    margin: 6px 0px 0px 1px ;  
+    color: rgb(255,222,1);
     font-size: 1rem;
-    font-weight: 600;
-    padding: 3px 3px 3px 3px;  
+    padding: 3px 3px 3px 0Spx;  
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar .username {  
     border: 1px; 
-    color: white; 
+    color: rgb(255,222,1);
+    margin: 4px 0px 0px 1px ;  
     text-align: center; 
-    margin-left: 3px; 
-    padding-bottom: 8px;  
-  
+    font-size: 1rem;  
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .navbar .check {
     margin-left: 4px;
     font-size: 1rem;
     text-align: center;
+    margin: 4px 0px 0px 2px ;
     font-weight:500;
-    color: wheat;
-    padding:3px 3px 3px 3px
+    color: rgb(255,222,1);
+    padding:3px 3px 3px 3px;
+    font-family: 'Montserrat', sans-serif; 
 }
 .navbar .ticket-number{
-    margin-left: 5px;
     border: 1px; 
-    color: white;
+    color: rgb(255,222,1);
     text-align: center; 
-    margin-left: 3px; 
+    margin: 7px 0px 0px 2px ; 
     padding-bottom: 8px; 
 }
 .navbar form input{
     border: 1px ;
     border-radius: 5px;
     text-align: center;
-    margin-left: 4px;
-          
+    margin: 2px 0px 0px 2px ; 
+    height: 20px;
+    width: 150px;         
 }
 
 
@@ -75,44 +81,54 @@
 .navbar .claim-btn{
     height:fit-content;
     border-radius: 5px;
+    margin: 3px 0px 0px 4px ; 
 }
 .navbar .claim-btn:hover{
     background-color: aqua;
 }
-.navbar .balance {
-    margin-left: 4px;
+.navbar .balance-show .balance {
+    margin: 2px 0px 0px 4px ; 
     font-size: 1rem;
     text-align: center;
-    font-weight:500;
+    font-weight:700;
     border-radius: 5px;
-    color: wheat;
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
-.navbar  .value{
+.navbar .balance-show .value{
     font-size: 1rem;
-    color: aliceblue;
-    margin-left: 10px;
+    color: brown;
+    margin: 2px 0px 0px 2px ;
     text-align: center;
     border-radius: 8px;
     width: 100px;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .navbar .balance-show {
     padding-top: 6px;
     display: flex;
+    color: brown;
+    border: 2px solid black;
+    width: 190px;
+    background-color: blanchedalmond;
 }
 
 .navbar .signout{
     width: fit-content;
-    height: 20px;
-    margin:3px 0px 0px 0px ;
+    height: 24px;
+    margin:6px 0px 0px 0px ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
 }
 .navbar .signout:hover{
     background-image: linear-gradient(white, black, pink);
-    color: white;
+    color: rgb(255,222,1);
 }
-
+/* 
 @media only screen and (max-width: 768px){
     .navbar{
         width: 100vw;
@@ -123,4 +139,4 @@
     .navbar{
         width: 100vw;
     }
-}
+} */
