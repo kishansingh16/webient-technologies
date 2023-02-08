@@ -1,4 +1,32 @@
-h1{
-    color: aliceblue;
-    background-color: aliceblue;
+.result {
+    
+    width: 100%;
+    color: white;
+}
+
+.result .res-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.res-single-head{
+    width: 100px;
+    height: 40px;
+}
+
+.result .res-value{
+    display: flex;
+    height: 70px;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#ress{
+    font-size: 40px;
+    font-weight: bold;
 }
