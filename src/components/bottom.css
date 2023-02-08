@@ -5,8 +5,8 @@
 
 .bottom-box{
     display: flex;
-    height:120px;
-    border: 1px solid white;
+    height:116px;
+    border: 0px solid white;
     align-items: center;
     justify-content: space-evenly;
 }
